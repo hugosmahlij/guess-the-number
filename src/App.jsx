@@ -78,7 +78,7 @@ function App () {
       />
       <button onClick={checkGuess}>Adivinar</button>
       <button onClick={resetGame}>Reiniciar</button>
-      <p>{message}</p>
+      <p className='message'>{message}</p>
     </div>
   );
 };
